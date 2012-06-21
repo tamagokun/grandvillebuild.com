@@ -1,0 +1,19 @@
+#mast-head {
+	height: 118px;
+	margin-top: 142px;
+}
+
+h1 {
+	padding: 0px;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+}
+
+#main-content ul.content li .article {
+	width: 490px;
+}
+
+#main-content ul.content li .article p.col1 {
+	width: 210px;
+}

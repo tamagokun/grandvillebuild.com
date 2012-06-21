@@ -1,0 +1,351 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,
+q:before,q:after{content:'';content:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+/* end reset */
+
+body {
+	background: #addedb url(../images/body-bg.jpg) repeat-x left top;
+	color: #e1c141;
+	font-size: 1em;
+	font-family: Arial;
+}
+
+#mast-head {
+	background: url(../images/head-bg.png) repeat-x left bottom;
+	height: 260px;
+}
+
+h1 {
+	padding: 60px 0 0 50px;
+}
+
+h1 a {
+	display: block;
+	text-indent: -1000em;
+	overflow: hidden;
+	background: url(../images/branding2.png) no-repeat left top;
+	width: 629px;
+	height: 179px;
+}
+
+.house1 {
+	background: url(../images/house-1.png) no-repeat left top;
+	position: absolute;
+	right: 30px;
+	top: 60px;
+	width: 225px;
+	height: 137px;
+}
+
+.house2 {
+	background: url(../images/house-2.png) no-repeat left top;
+	position: absolute;
+	right: 30px;
+	top: 45px;
+	width: 225px;
+	height: 157px;
+}
+
+.house3 {
+	background: url(../images/house-4.png) no-repeat left top;
+	position: absolute;
+	right: 60px;
+	top: 0px;
+	width: 153px;
+	height: 211px;
+}
+
+.house4 {
+	background: url(../images/house-5.png) no-repeat left top;
+	position: absolute;
+	right: 30px;
+	top: 55px;
+	width: 334px;
+	height: 145px;
+}
+
+
+#main-content {
+	background: #8d7a55;
+	padding: 15px 0 20px 0;
+}
+
+h2 {
+	color: #e1c141;
+	font-family: Cooper Black, Arial Black;
+	font-size: 2.8em;
+	padding-bottom: 10px;
+}
+
+h3 {
+	color: #26231c;
+	font-family: Cooper Black, Arial Black;
+	font-size: 1.3em;
+	padding-bottom: 5px;
+}
+
+.content li {
+	display: none;
+	position: relative;
+	left: 50%;
+	margin-left: -512px;
+	width: 1024px;
+}
+
+.content li .article {
+	float: left;
+	width: 500px;
+}
+
+
+.content li p {
+	line-height: 1.2em;
+	font-size: 1.4em;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.content li p.col1 {
+	float: left;
+	width: 250px;
+}
+
+.content li p.col2 {
+	float: right;
+	width: 250px;
+}
+
+.content li ul {
+	font-size: 1.4em;
+	font-weight: bold;
+	padding-left: 20px;
+	list-style: disc inside;
+}
+
+.content li ul li {
+	display: list-item !important;
+	list-style: disc inside;
+	position: static;
+	margin-left: 0;
+	width: auto;
+}
+
+.content li a.architect {
+	padding: 10px;
+	background: #5e5138;
+	display: block;
+	width: 220px;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 37px;
+}
+
+#president {
+	float: left;
+	margin-top: 10px;
+}
+
+#president a {
+	display: block;
+	text-indent: -1000em;
+	overflow: none;
+	width: 230px;
+	height: 285px;
+	background: url(../images/claude.jpg) no-repeat left top;
+}
+
+#president p {
+	text-align: center;
+	
+}
+
+
+#nav {
+	background: #5e5138;
+	float: left;
+	position: relative;
+	left: 50%;
+	margin-left: -300px;
+	height: 50px;
+}
+
+#nav li {
+	height: 35px;
+	width: 115px;
+	
+	margin-right: 12px;
+	float: left;
+	display: inline;
+	text-align: center;
+}
+
+#nav li a {
+	background: #786847;
+	display: block;
+	color: #e1c141;
+	text-decoration: none;
+	height: 29px;
+	width: 110px;
+	padding: 3px;
+	font-size: .9em;
+}
+
+#nav li.single a {
+	line-height: 29px;
+}
+
+#nav li a:hover, #nav li a.this {
+	background: #8c7a55;
+}
+
+#footer {
+	background: #5e5138;
+	padding: 0 35px;
+}
+
+#footer #bottom {
+	float: left;
+	width: 1024px;
+	position: relative;
+	left: 50%;
+	margin-left: -512px;
+	padding-bottom: 50px;
+}
+
+#footer #bottom li {
+	width: 300px;
+	float: left;
+	display: inline;
+	margin-left: 30px;
+}
+
+#footer form label {
+	width: 55px;
+	text-align: right;
+	color: #afa899;
+	display: block;
+	float: left;
+	padding-right: 10px;
+}
+
+#footer form input {
+	width: 175px;
+	background: #afa899;
+	padding: 3px;
+	font-size: 10px;
+	margin-bottom: 5px;
+	border: 0;
+	color: #26231c;
+}
+
+#footer form textarea {
+	width: 175px;
+	height: 70px;
+	background: #afa899;
+	border: 0;
+	padding: 3px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #26231c;
+}
+
+#footer form .button {
+	width: 50px;
+	float: right;
+	margin-right: 54px;
+}
+
+#footer p {
+	color: #afa899;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#footer #bottom li p {
+	text-align: left;
+}
+
+#footer p.office {
+	background: url(../images/bg-office.jpg) no-repeat left center;
+	padding-left: 39px;
+	font-size: 18px;
+}
+
+#footer p.phone {
+	background: url(../images/bg-phone.jpg) no-repeat left center;
+	padding-left: 39px;
+	font-size: 18px;
+}
+
+#footer p.mail {
+	background: url(../images/bg-mail.jpg) no-repeat left center;
+	padding-left: 39px;
+	font-size: 18px;
+}
+
+#footer p.disclaimer {
+	color: #26231c;
+	clear: both;
+}
+
+.img-left {
+	float: left;
+	margin: 10px;
+	margin-right: 25px;
+}
+
+.img-right {
+	float: right;
+	margin: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.content .plans-contact {
+	list-style: none;
+}
+
+.content .plans-contact li {
+	list-style: none;
+	display: block !important;
+	margin: 5px 0;
+	clear: both;
+}
+
+.content .plans-contact label {
+	line-height: 20px;
+}
+
+.content .plans-contact input, select {
+	margin: 0 10px;
+	padding: 3px;
+}
+
+.content .plans-contact small {
+	font-size: 12px;
+}
+
+.content .plans-contact li.button {
+	float: right;
+	margin-right: 25px;
+}
+
+.content .plans-contact a {
+	font-size: 14px;
+	color: #26231c;
+}
+
+#architect-contact {
+	display: none;
+}
